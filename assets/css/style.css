@@ -17,13 +17,20 @@ body {
 } */
 
 .btn{
-    display: flex;
     width: 168px;
     padding: 14px 20px;
     border-radius: 6px;
     border: none;
     color: #FFF;
     background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+.btn-2{
+    width: 168px;
+    padding: 14px 20px;
+    border: none;
+    color: #FFF;
+    border-radius: 6px;
+    background: #000;
 }
 /* nav section start */
 nav{
@@ -38,9 +45,8 @@ nav{
 
 .nav-search i{
     position: absolute;
-    top: 14px;
-    left: 830px;
-    
+    top: 85px;
+    left: 824px;
 }
 .nav-search input {
     position: relative;
@@ -143,6 +149,12 @@ nav{
     font-weight: 600;
     line-height: normal;
 }
+.shoes-title p{
+    color: #FF9D00;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+}
 .categories-items{
     display: flex;
     gap: 26px;
@@ -172,9 +184,65 @@ nav{
 }
 
 /* shoes section start */
+.shoes-backpack-parrent{
+    max-width: 1440px;
+    background: #F4F4F4;
+}
 .shoes{
     max-width: 1125px;
-    margin: 0 auto;
-    background: #F4F4F4;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.shoes-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.shoes-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.shoes-item{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    gap: 16px;
+    border-radius: 20px;
+    background: #FFF;
+}
+.shoes-item img{
+    width: 336px;
+    height: 100%;
+}
+.shoes-item h4{
+    color: #1F1F1F;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.shoes-item p{
+    color: #4E4E4E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+.shoes-item span{
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
 }
 /* shoes section end */
